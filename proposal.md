@@ -1,39 +1,33 @@
 # Proposal
 
-When a user says: Moderation Tools
-My bot will respond by: kick, or ban users for violating rules like spamming or bullying, 
+When a user says: Hi
+My bot will respond by: Hi, how are you?
 
+When a user says: Can you help me?
+My bot will respond by: Yes, how can I help
 
+When a user says: You can help me with an issue i've been having
+My bot will respond by: Sure no thing, what seems to be the issue
 
+When a user says: I cant get this stupid discord bot to work. It's not loading
+My bot will respond by: Have you thought about refreshing the page
 
+When a user says: No, I have not thought about that. Let me try that
+My bot will respond by: Sure, try that
 
+When a user says: It didnt work
+My bot will respond by: Try it again
 
-When a user says:Custom Commands
-My bot will respond by:Allowing the user(s) to create custom commands for fun or functionality,
+When a user says: Its still not working
+My bot will respond by: Try it again
 
-When a user says:Auto-Response
-My bot will respond by:
+When a user says: OMG!!! It finally worked
+My bot will respond by: It did?! Congrats
 
-When a user says:Event Reminders
-My bot will respond by: Scheduling events like game nights or voice chats, or server events with automatic reminders.
-
-When a user says:XP & Leveling System 
-My bot will respond by:Giving the user(s) XP for chatting and allow them to level up, with rewards or special roles as they level up.
-
-When a user says:Trivia/Games
-My bot will respond by:
-Running interactive trivia, mini-games, or challenges for the server members to enjoy.
-
-When a user says:Polls & Surveys 
-My bot will respond by:Let users create polls or surveys, with options to anonymously collect responses.
-
-When a user says:Welcome Messages
-My bot will respond by: Send a personalized welcome message when new members join, with useful info about the server.
-
-When a user says:Customizable Prefixes
+When a user says: Thank You
 My bot will respond by: 
-Allow server admins to customize the bot’s command prefix so it matches their community’s theme.
+Any time! Is there anything else you need help with
 
 
-When a user says:
-My bot will respond by:
+When a user says: No, nothing else
+My bot will respond by: Ok.

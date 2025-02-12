@@ -28,7 +28,7 @@ async def on_message(message):
     """
     This function is triggered every time a new message is posted in a channel the bot has access to.
     """
-    if message.channel.name == "drebees-bot":  # Only respond in the 'drebees-bot' channel
+    if message.channel.name == "ehabee_bot":  # Only respond in the 'drebees-bot' channel
         if message.author != client.user:  # Don't respond to the bot's own messages
             user_name = message.author.display_name  # Get the author's display name
             if my_bot.should_i_respond(message.content, user_name):  # Check if bot should respond
