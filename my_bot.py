@@ -10,8 +10,11 @@ This function will be called every time anyone says anything on a channel where 
 def should_i_respond(user_message, user_name):
   if "robot" in user_message:
     return True
+  if user_message =="You can help me with an issue i've been having":
+   return True 
   else:
     return False
+  
 
 """
 **Do NOT change the name of this function.**
@@ -23,5 +26,7 @@ This function will be called every time the `should_i_respond` function returns 
 * You can have the bot respond differently to different messages and users
 """
 def respond(user_message, user_name):
-  return f"""you said my name!!
-  {user_message.replace("robot", user_name)}"""
+  if user_message == "You can help me with an issue i've been having":
+
+    return "Sure no thing, what seems to be the issue"
+  {user_message.replace("robot", user_name)}
