@@ -8,6 +8,10 @@ This function will be called every time anyone says anything on a channel where 
 * You can have the bot respond differently to different users
 """
 def should_i_respond(user_message, user_name):
+  if user_message == "Hi":
+    return True
+  if user_message == "Can you help me?":
+    return True
   if "robot" in user_message:
     return True
   if user_message =="You can help me with an issue i've been having":
@@ -29,4 +33,9 @@ def respond(user_message, user_name):
   if user_message == "You can help me with an issue i've been having":
 
     return "Sure no thing, what seems to be the issue"
-  {user_message.replace("robot", user_name)}
+  if user_message == "Hi": 
+    print("asdf")
+    return "Hi, how are you?"
+  if user_message == "Can you help me?":   
+    return "Yes, how can I help"
+  return user_message.replace("robot", user_name)
