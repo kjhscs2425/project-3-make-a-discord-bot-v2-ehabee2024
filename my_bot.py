@@ -18,6 +18,8 @@ def should_i_respond(user_message, user_name):
    return True 
   if user_message =="I cant get this stupid discord bot to work. It's not loading":
    return True 
+  if user_message =="No, I have not thought about that. Let me try that":
+   return True 
   else:
     return False
   
@@ -42,4 +44,6 @@ def respond(user_message, user_name):
     return "Yes, how can I help"
   if user_message == "I cant get this stupid discord bot to work. It's not loading":   
     return "Have you thought about refreshing the page"
+  if user_message == "No, I have not thought about that. Let me try that":   
+    return "Sure, try that"
   return user_message.replace("robot", user_name)
