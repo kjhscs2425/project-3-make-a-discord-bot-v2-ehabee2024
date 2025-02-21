@@ -22,6 +22,8 @@ def should_i_respond(user_message, user_name):
    return True 
   if user_message =="It didnt work":
    return True 
+  if user_message =="Its still not working":
+   return True 
   else:
     return False
   
@@ -49,5 +51,7 @@ def respond(user_message, user_name):
   if user_message == "No, I have not thought about that. Let me try that":   
     return "Sure, try that"
   if user_message == "It didnt work":   
+    return "Try it again"
+  if user_message == "Its still not working":   
     return "Try it again"
   return user_message.replace("robot", user_name)
