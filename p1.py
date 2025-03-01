@@ -14,7 +14,10 @@ my_list.append(3.14)
 my_list.append(7)
 print(my_list)
 #YOUR CODE HERE
-
+# get the index of 'cat'
 # c) Find and print the index of "cat"
+index = my_list.index('cat')
+print(index)
+
 
 #YOUR CODE HERE
