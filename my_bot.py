@@ -23,8 +23,14 @@ def should_i_respond(user_message, user_name):
   if user_message =="It didnt work":
    return True 
   if user_message =="Its still not working":
-   return True 
-  else:
+    return True 
+  if user_message == "OMG!!! It finally worked":
+    return True 
+  if user_message ==  "Thank You":
+    return True 
+  if user_message == "No, nothing else":
+     return True 
+  else: 
     return False
   
 
@@ -54,4 +60,11 @@ def respond(user_message, user_name):
     return "Try it again"
   if user_message == "Its still not working":   
     return "Try it again"
-  return user_message.replace("robot", user_name)
+  if user_message == "OMG!!! It finally worked":
+    return "It did?! Congrats"
+  if user_message ==  "Thank You":
+    return "Any time! Is there anything else you need help with?"
+  if user_message == "No, nothing else":
+    return "Ok"
+  #return user_message.replace("robot", user_name)
+ 
